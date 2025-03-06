@@ -1,9 +1,12 @@
 import { ActualWeatherStyled } from "./styled";
+import Place from "./Place";
 
 const ActualWeather = () => {
 
     return (
-        <ActualWeatherStyled> kekw </ActualWeatherStyled>
+        <ActualWeatherStyled>
+            <Place />
+        </ActualWeatherStyled>
     )
 }
 
