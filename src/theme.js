@@ -11,7 +11,8 @@ export const theme = {
     fontSize: {
         small: 18,
         normal: 22,
-        big: 26,
+        big: 36,
+        large: 72,
     },
     breakpoints: {
         //to be continued

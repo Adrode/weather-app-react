@@ -1,13 +1,14 @@
 import styled from "styled-components";
 
-export const Container = styled.div`
+export const Container = styled.main`
     max-width: 1200px;
+    width: max-content;
+    padding: 10px;
 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
-    //to delete later
-    border: 1px solid black;
+    border: 1px solid black; //to delete later
 `;
