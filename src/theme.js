@@ -4,7 +4,7 @@ export const theme = {
         border: "#404040",
         fontColor: "#202020",
     },
-    fontSize: {
+    fontWeight: {
         normal: 400,
         bold: 700,
     },
