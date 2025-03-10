@@ -5,7 +5,9 @@ const ActualWeather = () => {
 
     return (
         <ActualWeatherStyled>
-            <Place />
+            <Place
+                title={"City"}
+            />
         </ActualWeatherStyled>
     )
 }

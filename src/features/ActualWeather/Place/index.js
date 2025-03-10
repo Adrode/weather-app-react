@@ -1,10 +1,10 @@
 import { PlaceStyled } from "./styled"
 
-const Place = () => {
+const Place = ({ title }) => {
 
     return (
         <PlaceStyled>
-            City
+            {title}
         </PlaceStyled>
     )
 }
