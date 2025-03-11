@@ -4,7 +4,7 @@ export const theme = {
         backgroundItems: "#82e2fa80",
         border: "#404040",
         fontColor: "#202020",
-        transparentBlack: "#272727",
+        //transparentBorder: "#37C9EDFF",
         black: "#000000",
     },
     fontWeight: {
