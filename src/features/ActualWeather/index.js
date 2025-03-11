@@ -3,7 +3,7 @@ import { Temperature } from "./Temperature";
 import { AdditionalInfo } from "./AdditionalInfo";
 import { Section } from "../../common/Section/styled";
 
-const ActualWeather = () => {
+export const ActualWeather = () => {
 
     return (
         <Section>
@@ -19,5 +19,3 @@ const ActualWeather = () => {
         </Section>
     )
 }
-
-export default ActualWeather;
