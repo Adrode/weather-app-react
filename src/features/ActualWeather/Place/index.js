@@ -1,6 +1,6 @@
 import { PlaceStyled } from "./styled"
 
-const Place = ({ title }) => {
+export const Place = ({ title }) => {
 
     return (
         <PlaceStyled>
@@ -8,5 +8,3 @@ const Place = ({ title }) => {
         </PlaceStyled>
     )
 }
-
-export default Place;
