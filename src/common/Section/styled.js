@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ActualWeatherStyled = styled.section`
+export const Section = styled.section`
     border: 1px solid red;
 
     display: flex;
