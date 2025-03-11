@@ -11,7 +11,11 @@ const ActualWeather = () => {
                 title={"City"}
             />
             <Temperature />
-            <AdditionalInfo />
+            <AdditionalInfo
+                humidity={"20%"}
+                cloudCover={"35%"}
+                chanceOfRain={"50%"}
+            />
         </ActualWeatherStyled>
     )
 }

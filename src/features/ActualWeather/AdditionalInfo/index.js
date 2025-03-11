@@ -1,12 +1,12 @@
 import { InfoContainer, StyledAdditionalInfo } from "./styled"
 
-export const AdditionalInfo = () => {
+export const AdditionalInfo = ({humidity, cloudCover, chanceOfRain}) => {
 
     return (
         <StyledAdditionalInfo>
-            <InfoContainer>Humidity: 50%</InfoContainer>
-            <InfoContainer>Cloud cover: 20%</InfoContainer>
-            <InfoContainer>Chance of rain: 25%</InfoContainer>
+            <InfoContainer>Humidity: {humidity}</InfoContainer>
+            <InfoContainer>Cloud cover: {cloudCover}</InfoContainer>
+            <InfoContainer>Chance of rain: {chanceOfRain}</InfoContainer>
         </StyledAdditionalInfo>
     )
 }
