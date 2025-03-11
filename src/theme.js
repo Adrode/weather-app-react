@@ -1,8 +1,11 @@
 export const theme = {
     color: {
-        backgroung: "#0080FF",
+        backgroundMain: "#37C9ED",
+        backgroundItems: "#82e2fa80",
         border: "#404040",
         fontColor: "#202020",
+        transparentBlack: "#272727",
+        black: "#000000",
     },
     fontWeight: {
         normal: 400,

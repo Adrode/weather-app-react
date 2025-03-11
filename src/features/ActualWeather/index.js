@@ -1,6 +1,7 @@
 import { ActualWeatherStyled } from "./styled";
 import Place from "./Place";
 import { Temperature } from "./Temperature";
+import { AdditionalInfo } from "./AdditionalInfo";
 
 const ActualWeather = () => {
 
@@ -10,6 +11,7 @@ const ActualWeather = () => {
                 title={"City"}
             />
             <Temperature />
+            <AdditionalInfo />
         </ActualWeatherStyled>
     )
 }

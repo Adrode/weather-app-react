@@ -12,7 +12,7 @@ export const GlobalStyle = createGlobalStyle`
   body {
     font-family: "Montserrat", sans-serif;
     color: ${({ theme }) => theme.color.fontColor};
-    background-color: teal;
+    background-color: ${({ theme }) => theme.color.backgroundMain};
     display: flex;
     align-items: center;
     justify-content: center;

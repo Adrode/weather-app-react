@@ -1,10 +1,13 @@
 import styled from "styled-components";
 
 export const StyledTemperature = styled.div`
-    border: 10px double black;
+    margin: 0 auto 60px;
+    border: 10px double ${({ theme }) => theme.color.black};
     border-radius: 50%;
     aspect-ratio: 1 / 1;
     width: 300px;
+
+    background-color: ${({ theme }) => theme.color.backgroundItems};
 
     font-size: ${({ theme }) => theme.fontSize.large}px;
 
