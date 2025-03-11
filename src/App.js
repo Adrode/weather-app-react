@@ -1,11 +1,11 @@
-import { Container } from "./common/Container/styled";
+import { Main } from "./common/Main/styled";
 import ActualWeather from "./features/ActualWeather";
 
 const App = () => {
   return (
-    <Container>
+    <Main>
       <ActualWeather />
-    </Container>
+    </Main>
   );
 }
 
