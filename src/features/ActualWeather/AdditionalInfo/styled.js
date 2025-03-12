@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const StyledAdditionalInfo = styled.div`
-    width: 100%;
     display: flex;
     gap: 10px;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 `;
 
 export const InfoContainer = styled.div`
