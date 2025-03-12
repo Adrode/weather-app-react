@@ -1,34 +1,47 @@
-import { Section } from "../../common/Section/styled"
-import { Header, HourTemperatureContainer, HourTemperature } from "./styled"
+import {
+    StyledHourlyWeather,
+    Header,
+    HourTemperatureContainer,
+    HourTemperature,
+    Hour,
+    Temperature
+} from "./styled";
 
 export const HourlyWeather = () => {
 
     return (
-        <Section>
+        <StyledHourlyWeather>
             <Header>Hourly weahter</Header>
             <HourTemperatureContainer>
                 <HourTemperature>
-                    12:00
+                    <Hour>12:00</Hour>
+                    <Temperature>15°C</Temperature>
                 </HourTemperature>
                 <HourTemperature>
-                    13:00
+                    <Hour>13:00</Hour>
+                    <Temperature>19°C</Temperature>
                 </HourTemperature>
                 <HourTemperature>
-                    14:00
+                    <Hour>14:00</Hour>
+                    <Temperature>21°C</Temperature>
                 </HourTemperature>
                 <HourTemperature>
-                    15:00
+                    <Hour>15:00</Hour>
+                    <Temperature>22°C</Temperature>
                 </HourTemperature>
                 <HourTemperature>
-                    16:00
+                    <Hour>16:00</Hour>
+                    <Temperature>25°C</Temperature>
                 </HourTemperature>
                 <HourTemperature>
-                    17:00
+                    <Hour>17:00</Hour>
+                    <Temperature>24°C</Temperature>
                 </HourTemperature>
                 <HourTemperature>
-                    18:00
+                    <Hour>18:00</Hour>
+                    <Temperature>22°C</Temperature>
                 </HourTemperature>
             </HourTemperatureContainer>
-        </Section>
+        </StyledHourlyWeather>
     )
 }
