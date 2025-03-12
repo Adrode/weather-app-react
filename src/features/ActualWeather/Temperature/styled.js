@@ -14,6 +14,10 @@ export const StyledTemperature = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    -webkit-box-shadow: 8px 8px 50px -10px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 50px -10px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 50px -10px rgba(66, 68, 90, 1);
 `;
 
 export const StyledTemperatureValue = styled.span`
