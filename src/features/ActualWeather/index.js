@@ -1,12 +1,12 @@
 import { Place } from "./Place";
 import { Temperature } from "./Temperature";
 import { AdditionalInfo } from "./AdditionalInfo";
-import { Section } from "../../common/Section/styled";
+import { StyledActualWeather } from "./styled";
 
 export const ActualWeather = () => {
 
     return (
-        <Section>
+        <StyledActualWeather>
             <Place
                 title={"City"}
             />
@@ -16,6 +16,6 @@ export const ActualWeather = () => {
                 cloudCover={"35%"}
                 chanceOfRain={"50%"}
             />
-        </Section>
+        </StyledActualWeather>
     )
 }
