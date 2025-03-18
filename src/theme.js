@@ -1,7 +1,9 @@
 export const theme = {
     color: {
+        white: "#FFFFFF",
         backgroundMain: "#37C9ED",
         backgroundItems: "#82e2fa80",
+        lightYellow: "#fcfccc",
         border: "#404040",
         fontColor: "#202020",
         //transparentBorder: "#37C9EDFF",
