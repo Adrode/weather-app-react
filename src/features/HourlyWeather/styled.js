@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledHourlyWeather = styled.section`
     margin: 0 auto 40px;
-    padding: 40px 20px;
+    padding: 30px 20px;
     border: 1px solid red;
     border-radius: 15px;
 
