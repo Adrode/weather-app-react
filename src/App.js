@@ -7,6 +7,7 @@ const App = () => {
     <Main>
       <ActualWeather />
       <HourlyWeather />
+      <HourlyWeather />
     </Main>
   );
 }

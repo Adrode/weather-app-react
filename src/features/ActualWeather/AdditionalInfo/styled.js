@@ -14,4 +14,8 @@ export const InfoContainer = styled.div`
     padding: 20px;
 
     background-color: ${({ theme }) => theme.color.backgroundItems};
+
+    -webkit-box-shadow: 8px 8px 10px -10px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 8px 8px 10px -10px rgba(66, 68, 90, 1);
+    box-shadow: 8px 8px 10px -10px rgba(66, 68, 90, 1);
 `;
