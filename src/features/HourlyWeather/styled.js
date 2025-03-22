@@ -52,7 +52,12 @@ export const HourTemperature = styled.div`
     transition: transform 0.15s linear;
 
     &:hover {
-        transform: scale(1.05);
+        transform: scale(1.03);
+        cursor: pointer;
+    }
+
+    &:active {
+        transform: scale(1);
     }
 `;
 
